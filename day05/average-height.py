@@ -7,10 +7,12 @@ for n in range(0, len(student_heights)):
 
 # Write your code below this row
 heights_sum = 0
+student_cnt = 0
 
 for height in student_heights:
     heights_sum += height
+    student_cnt += 1
 
-heights_avg = round(heights_sum / len(student_heights))
+heights_avg = round(heights_sum / student_cnt)
 
 print(heights_avg)
