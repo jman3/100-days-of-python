@@ -16,7 +16,7 @@ while front_is_clear():
 turn_left()
 
 # 2. follow along the right edge of the maze
-lwhile not at_goal():
+while not at_goal():
     if right_is_clear():
         turn_right()
         move()
