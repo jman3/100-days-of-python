@@ -44,3 +44,14 @@ is_instock = True
 # 위와 같이 처음 True or False로 지정해두고 반복되는 작업을 수행하면서
 # 특정 조건이 충족될때 True or False로 바뀌면서 반복문을 종료하는 등에 이용된다
 ```
+
+### Docstring
+클래스나 함수를 정의할 때 첫 줄에 작성하는 문자열로, 주로 클래스나 함수의 의도 및 기능에 대해 더 잘 이해할 수 있도록 내용을 적어두는 것이다
+```python
+def my_function():
+    """docstring을 적는 곳"""
+    return
+
+# 이렇게 적은 docstring은 아래와 같이 함수 속성으로 접근할 수 있다
+print(my_function.__doc__)
+```

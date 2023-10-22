@@ -23,3 +23,13 @@ chosen_word = "Understanding"
 display = ['_' for letter in chosen_word]
 ```
 
+### enumerate()
+for 루프를 돌릴 때, 인덱스와 원소를 동시에 얻을 수 있는 방법
+```python
+for i, country in enumerate(["Korea", "France", "US"]):
+    print(i, country)
+
+# 0 Korea
+# 1 France
+# 2 US
+```
