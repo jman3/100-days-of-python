@@ -7,8 +7,9 @@ readme = "README.md"
 packages = [{include = "100_days_of_python"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "<3.13, >=3.9"
 prettytable = "^3.9.0"
+pandas = "^2.1.2"
 
 
 [build-system]
