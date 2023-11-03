@@ -10,6 +10,7 @@ packages = [{include = "100_days_of_python"}]
 python = "<3.13, >=3.9"
 prettytable = "^3.9.0"
 pandas = "^2.1.2"
+colorgram-py = "^1.2.0"
 
 
 [build-system]
