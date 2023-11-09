@@ -20,7 +20,6 @@ for color in colors:
     y += 40
     turtles.append(new_turtle)
 
-print(turtles)
 
 while is_race_on:
     for turtle in turtles:
