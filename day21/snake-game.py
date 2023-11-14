@@ -35,7 +35,8 @@ while not is_game_over:
         snake.extend()
 
     if abs(snake.head.xcor()) > 280 or abs(snake.head.ycor()) > 280 or snake.is_collide():
-        is_game_over = True
-        scoreboard.game_over()
+        # is_game_over = True
+        scoreboard.reset()
+        snake.reset()
 
 screen.exitonclick()
